@@ -1,9 +1,6 @@
 pipeline {
     agent any
 
-    environment {
-    }
-
     stages {
         // This is build phase
         stage('Build') {
